@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш сайт</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #ad-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 20px;
+            border: 1px solid #ccc;
+        }
+
+        #ad-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Ваш вміст сайту -->
+
+    <!-- Код для додавання рекламного блоку -->
+    <div id="ad-container">
+        <!-- Тут може бути ваш рекламний контент -->
+        <img src="рекламне_зображення.jpg" alt="Реклама">
+        <p>Текст реклами</p>
+    </div>
+
+    <!-- Інший вміст сайту -->
+
+    <script>
+        // Додатковий JavaScript, якщо потрібно
+        // Наприклад, можна додати обробник подій для взаємодії з рекламою
+        var adContainer = document.getElementById('ad-container');
+
+        adContainer.addEventListener('click', function() {
+            alert('Вас вітає реклама!'); // Приклад обробника подій
+        });
+    </script>
+
+</body>
+</html>
